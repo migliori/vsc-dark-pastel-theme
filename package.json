@@ -1,0 +1,32 @@
+{
+    "name": "dark-pastel-theme",
+    "displayName": "Dark Pastel Theme",
+    "description": "Dark Theme with soft colors",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.34.0"
+    },
+	"publisher": "Miglisoft",
+	"keywords": [
+		"dark",
+		"soft",
+		"pastel"
+	],
+    "categories": [
+        "Themes"
+    ],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/migliori/vsc-dark-pastel-theme"
+	},
+	"icon": "dark-pastel-theme.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Pastel Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Pastel-color-theme.json"
+            }
+        ]
+    }
+}
